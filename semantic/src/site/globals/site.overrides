@@ -1,0 +1,78 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+header {
+    width: 100%;
+    height: @headerHeight;
+    top: 0px;
+    z-index: 100;
+    position: fixed;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #dddddd;
+    padding: 1.5em 2.5em 1.5em 2.5em;
+    background-color: @white;
+}
+
+.verticalCenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profileText {
+    text-align: left;
+    font-size: 20px;
+}
+
+#content {
+    position: relative;
+    top: @headerHeight;
+    height: 100%;
+}
+
+#content .section {
+    min-height: 100%;
+    margin-top: 0px;
+    padding-top: 1.5em;
+    
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #dddddd;
+}
+
+.sectionHeader {
+    margin-top: 1.5em;
+}
+
+.sectionItem {
+    margin-top: 2.5em;
+}
+
+.centeredImage {
+    margin:auto; 
+    display:block; 
+    max-width: 100%;
+}
+
+#profile {
+    height: 100%;
+    background-image: url('../../images/RochesterBlur2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section .header {
+    text-align: center;
+}
+
+.employerImage {
+    height: 150px;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}

@@ -1,0 +1,6 @@
+/*******************************
+     User Global Variables
+*******************************/
+@headerHeight: 95px;
+@contentSize: 100% - 95px;
+@blue: #009DDB;

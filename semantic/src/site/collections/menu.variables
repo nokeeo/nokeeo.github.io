@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@secondaryHoverItemBackground: rgba(0, 0, 0, 0);
+@secondaryHoverItemColor: @blue;
